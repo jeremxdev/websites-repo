@@ -6,30 +6,31 @@ body {
     font-family: Sans-serif, Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
-
-.header .title {
+.header {
+    color: #FFF;
+}
+.header .presentation_img .title {
     text-align: center;
+    margin-top: 0;
+    padding: 50px 0 25px 0;
 }
 
-.header .text {
+.header .presentation_img .text {
     text-align: center;
 }
-.header .text a {
+.header .presentation_img .text a {
     text-decoration: none;
     color: rgba(5, 5, 5, 0.7);
 }
-.header .text a:hover {
+.header .presentation_img .text a:hover {
     text-decoration: underline;
-    color: rgb(61, 147, 175);
+    color: #FFF;
 }
 
 .header .presentation_img {
-    height: 500px;
+    height: 250px;
     width: 100%;
-    background: no-repeat url("../img/paysage.jpg");
-    background-size: cover;
-    left: 0;
-    right: 0;
+    background-color: rgb(43, 75, 86);;
 }
 
 .body {
