@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+}
+body {
+    font-size: 16px;
+    font-family: Sans-serif, Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+.text a {
+    text-decoration: none;
+    color: rgba(5, 5, 5, 0.7);
+}
+.text a:hover {
+    text-decoration: underline;
+    color: rgb(61, 147, 175);
+}
+
+.presentation_img {
+    height: 500px;
+    width: 100%;
+    background: no-repeat url("../img/paysage.jpg");
+    background-size: cover;
+    left: 0;
+    right: 0;
+}
