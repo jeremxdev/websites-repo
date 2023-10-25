@@ -7,27 +7,47 @@ body {
     line-height: 1.6;
 }
 
-h1 {
+.header .title {
     text-align: center;
 }
 
-.text {
+.header .text {
     text-align: center;
 }
-.text a {
+.header .text a {
     text-decoration: none;
     color: rgba(5, 5, 5, 0.7);
 }
-.text a:hover {
+.header .text a:hover {
     text-decoration: underline;
     color: rgb(61, 147, 175);
 }
 
-.presentation_img {
+.header .presentation_img {
     height: 500px;
     width: 100%;
     background: no-repeat url("../img/paysage.jpg");
     background-size: cover;
     left: 0;
     right: 0;
+}
+
+.body {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+}
+.body .text .title {
+    margin: 0;
+    padding: 20px 0 20px 0;
+}
+.body .text .phrase {
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 25px 0 25px 0;
+    background: rgb(43, 75, 86);
+    color: #FFF;
 }
