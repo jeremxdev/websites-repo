@@ -46,11 +46,9 @@ body {
     margin: 0;
 }
 
-/*
 .footer {
-    text-align: center;
-    padding: 25px 0 25px 0;
-    background: rgb(43, 75, 86);
-    color: #FFF;
 }
-*/
+.footer .content {
+    text-align: center;
+    width: 100%;
+}
