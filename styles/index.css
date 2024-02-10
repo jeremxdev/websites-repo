@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
 }
@@ -5,38 +9,43 @@ body {
     font-size: 16px;
     font-family: Sans-serif, Arial, Helvetica, sans-serif;
     line-height: 1.6;
+    position: relative;
 }
+
 .header {
+    background: url('../img/paysage.jpg');
+    height: 350px;
+    background-size: cover;
+    background-position: bottom;
+}
+.header .navbar {
+    text-align: center;
+    padding-top: 25px;
+}
+.header .navbar a {
+    font-size: 16px;
     color: #FFF;
-}
-.header .presentation_img .title {
-    text-align: center;
-    margin-top: 0;
-    padding: 50px 0 25px 0;
-}
-
-.header .presentation_img .text {
-    text-align: center;
-}
-.header .presentation_img .text a {
     text-decoration: none;
-    color: rgba(5, 5, 5, 0.7);
 }
-.header .presentation_img .text a:hover {
+.header .navbar a:hover {
     text-decoration: underline;
-    color: #FFF;
 }
-
-.header .presentation_img {
-    height: 250px;
-    width: 100%;
-    background-color: rgb(43, 75, 86);;
+.header .navbar a:last-child {
+    padding-left: 10px;
+}
+.header .txt .title {
+    align-content: center;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-size: 35px;
+    padding-top: calc(350px / 2 - 80px);
 }
 
 .body {
     width: 50%;
     margin: 0 auto;
-    padding: 0 0 50px 0;
+    padding: 0 0 100px 0;
 }
 .body .text .title {
     margin: 0;
@@ -46,9 +55,34 @@ body {
     margin: 0;
 }
 
-.footer {
+.body .img {
+    display: inline;
 }
-.footer .content {
+.body .img img {
+    width: 50%;
+    border: 5px solid #000;
+}
+
+@media screen and (max-width: 630px) {
+    .body .img img {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .body .img img {
+        width: 100%;
+    }
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
-    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background: rgb(43, 75, 86);
+    color: #FFF;
 }
