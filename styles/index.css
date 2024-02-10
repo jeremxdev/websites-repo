@@ -9,7 +9,6 @@ body {
     font-size: 16px;
     font-family: Sans-serif, Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    position: relative;
 }
 
 .header {
@@ -74,9 +73,55 @@ body {
     }
 }
 
+.main {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.main .title {
+    text-align: center;
+}
+.main .contact {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main form input {
+    width: 50%;
+    height: 50px;
+    border: 1px solid #000;
+    outline: none;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.main form textarea {
+    padding-left: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    outline: none;
+    max-width: 50%;
+    min-width: 50%;
+    max-height: 300px;
+    min-height: 300px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.main form button {
+    height: 50px;
+    background: rgb(43, 75, 86);
+    color: #FFF;
+    padding: 8px 25px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 
 .footer {
-    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
